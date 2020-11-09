@@ -16,36 +16,28 @@ int main() {
 	std::cin >> opr;
 	std::cout << "\n";
 
-	while (true)
-	{
-		if (opr == '+')
+	if (opr == '+')
 	{
 		res = x + y;
 		std::cout << res;
-		break;
 	}
 	else if (opr == '-')
 	{
 		res = x - y;
 		std::cout << res;
-		break;
 	}
 	else if (opr == '*')
 	{
 		res = x * y;
 		std::cout << res;
-		break;
 	}
 	else if (opr == '/')
 	{
 		res = x / y;
 		std::cout << res;
-		break;
 	}
 	else {
 		std::cout << "Invaid Input";
-		continue;
-	}
 	}
 
 }
