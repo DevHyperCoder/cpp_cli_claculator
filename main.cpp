@@ -39,7 +39,7 @@ int main() {
 	else if (opr == '/')
 	{
 		res = x / y;
-		
+		std::cout << res;
 		break;
 	}
 	else {
